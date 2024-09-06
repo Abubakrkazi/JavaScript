@@ -1,0 +1,3 @@
+console.log(
+    "WELCOME YOU FOR YOUR JURNEY ON JAVASCRIPT"
+)
