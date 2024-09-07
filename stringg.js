@@ -30,3 +30,10 @@ console.log(nam.toUpperCase());
   console.log(fullname);
   // incluses
   console.log(first.includes('A'));
+  
+  // Revers setence
+  const sentence='I am a learning Web Dev.'
+  let revers=''
+  for(const letter of sentence){
+    console.log(letter);
+  }
