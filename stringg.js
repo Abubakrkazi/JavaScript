@@ -35,5 +35,7 @@ console.log(nam.toUpperCase());
   const sentence='I am a learning Web Dev.'
   let revers=''
   for(const letter of sentence){
-    console.log(letter);
+    //console.log(letter);
+    revers=letter+revers;
   }
+  console.log(revers);
