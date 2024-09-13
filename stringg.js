@@ -39,3 +39,4 @@ console.log(nam.toUpperCase());
     revers=letter+revers;
   }
   console.log(revers);
+  
