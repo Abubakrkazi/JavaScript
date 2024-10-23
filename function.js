@@ -59,3 +59,9 @@ Function();
 
    const sum=add2( 4,5);
    console.log(sum);
+
+   // Multiplay
+   const  Multiplay =(a,b)=>a*b;
+
+   const Mult= Multiplay( 4,5);
+   console.log(Mult);
