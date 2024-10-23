@@ -39,3 +39,23 @@ Function();
     }
   }
   evenoddSize('Dhaka');
+
+  // Function declaration
+  function add(a,b){
+  return a+b;}
+
+  const sum=add( 4,5);
+  console.log(sum);
+
+  // Funciton Expression
+   const add2=function(a,b){
+     return a+b;
+   }
+  const sum=add2( 4,5);
+  console.log(sum);
+
+  //Arrow Function
+  const add3=(a,b)=>a+b;
+
+   const sum=add2( 4,5);
+   console.log(sum);
