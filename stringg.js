@@ -31,7 +31,7 @@ console.log(nam.toUpperCase());
   // incluses
   console.log(first.includes('A'));
   
-  // Revers setence
+  // Revers sentence
   const sentence='I am a learning Web Dev.'
   let revers=''
   for(const letter of sentence){
@@ -39,4 +39,37 @@ console.log(nam.toUpperCase());
     revers=letter+revers;
   }
   console.log(revers);
+
+  //Using NUmbaer 
+  let str = "42";
+  let num = Number(str);
+  console.log(num); // 42
+
+
+
+//  ParseInt
+let str = "42px";
+let num = parseInt(str, 10); // Base 10
+console.log(num); // 42
+
+
+//ParseFloat
+let str = "3.14";
+let num = parseFloat(str);
+console.log(num); // 3.14
+
+
+// + operator
+let str = "123";
+let num = +str;
+console.log(num); // 123
+
+
+//Math operation
+let str = "50";
+let num = str * 1; // or str / 1, str - 0
+console.log(num); // 50
+
+
+
   
